@@ -3,10 +3,10 @@ Hero styles
 ========================================================================== */
 
 .hero-body {
-    padding-top: 6rem;
+    padding-top: 1rem;
     padding-bottom: 6rem;
     .title, .subtitle {
-        font-family: 'Open Sans', sans-serif;
+        font-family: $title-font, 'Open Sans', sans-serif;
     }
     .title {
         &.is-bold {
@@ -22,6 +22,6 @@ Hero styles
 
 .hero-foot {
     img.partner-logo {
-        height: 70px;
+        height: 50px;
     }
 }

@@ -17,7 +17,7 @@ Section Styles
         height: 75vh !important;
     }
     .title, .subtitle {
-        font-family: 'Open Sans', sans-serif;
+        font-family: $title-font, 'Open Sans', sans-serif;
 
     }
     .subtitle {
@@ -32,7 +32,7 @@ Section Styles
     max-width: 500px;
     margin: 0 auto;
     .title, .subtitle {
-        font-family: 'Open Sans', sans-serif;
+        font-family: $title-font, 'Open Sans', sans-serif;
 
     }
     .subtitle {
@@ -48,6 +48,36 @@ Section Styles
     border-radius: 50px;
     background: $secondary;
     width: 60px;
+    &.is-centered {
+        margin: 0 auto;
+    }
+}
+
+.divider-primary {
+    height: 3px;
+    border-radius: 50px;
+    background: $primary;
+    width: 60px;
+    &.is-centered {
+        margin: 0 auto;
+    }
+}
+
+.divider-long {
+    height: 3px;
+    border-radius: 50px;
+    background: $secondary;
+    width: 120px;
+    &.is-centered {
+        margin: 0 auto;
+    }
+}
+
+.divider-long-primary {
+    height: 3px;
+    border-radius: 50px;
+    background: $primary;
+    width: 120px;
     &.is-centered {
         margin: 0 auto;
     }

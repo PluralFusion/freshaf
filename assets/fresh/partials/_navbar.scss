@@ -38,16 +38,16 @@ Navbar
     }
     //Navbar items
     .navbar-item {
-        color: $muted-grey;
+        color: $medium-grey;
         &.is-secondary {
             &:hover {
-                color: $secondary !important;
+                color: $primary !important;
             }
         }
         &.has-dropdown {
             padding: 10px 0;
             .navbar-link {
-                color: $muted-grey;
+                color: $medium-grey;
                 &:after {
                     top: 55%;
                     height: 0.5em;
