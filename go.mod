@@ -1,4 +1,4 @@
-module github.com/StefMa/hugo-fresh
+module github.com/PluralFusion/freshaf
 
 go 1.12
 
