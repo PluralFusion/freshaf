@@ -5,9 +5,9 @@
 {{- $buttonLink := index $hero "buttonlink" }}
 {{- $image      := index $hero "image" }}
 {{- with index $hero "imagealt" -}}
-    {{- $imagealt = . -}}
+    {{- $imagealt := . -}}
   {{- else -}}
-    {{- $imagealt = "Hero Image" -}}
+    {{- $imagealt := "Hero Image" -}}
 {{- end -}}
 <div class="hero-body">
   <div class="container">
