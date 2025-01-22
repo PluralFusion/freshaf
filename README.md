@@ -5,3 +5,5 @@
 **FreshAF**: a theme for the [Hugo](https://gohugo.io) static site generator adapted from the [Bulma](https://bulma.io)-based theme of the same name from [CSS Ninja](https://cssninja.io/product/fresh) and [hugo-fresh](https://stefma.github.io/hugo-fresh). 
 
 It is used for the [PluralFusion Daytempo site](https://daytempo.com) which is a github pages site managed at https://github.com/PluralFusion/daytempo.github.io.
+
+This was forked to allow me to customize the theme more completely, including minor support for ADA image descriptions (currently only in hero).
