@@ -1,7 +1,7 @@
-<h1 align="center"> ✨ hugo-fresh | <a href="https://hugo-fresh.vercel.app">Demo</a> | <a href="https://stefma.github.io/hugo-fresh">Documentation</a> ✨ </h1>
-<p align="center">The Fresh theme for Hugo</p>
+<h2 align="center"> ✨ freshaf | used by <a href="https://daytempo.com">DayTempo</a> | based On <a href="https://stefma.github.io/hugo-fresh">Hugo Fresh</a> ✨ </h1>
 
 
-**Fresh** is a theme for the [Hugo](https://gohugo.io) static site generator adapted from the gorgeous, [Bulma](https://bulma.io)-based theme of the same name from [CSS Ninja](https://cssninja.io/product/fresh). You can find a live demo of the original theme [here](https://fresh.cssninja.io/) and a live demo of the Hugo theme [here](https://hugo-fresh.vercel.app).
 
-![Fresh theme logo](images/screenshot.png)
+**FreshAF**: a theme for the [Hugo](https://gohugo.io) static site generator adapted from the [Bulma](https://bulma.io)-based theme of the same name from [CSS Ninja](https://cssninja.io/product/fresh) and [hugo-fresh](https://stefma.github.io/hugo-fresh). 
+
+It is used for the [PluralFusion Daytempo site](https://daytempo.com) which is a github pages site managed at https://github.com/PluralFusion/daytempo.github.io.
