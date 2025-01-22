@@ -2,6 +2,6 @@ module github.com/stefma/hugo-fresh/docs
 
 go 1.15
 
-replace github.com/StefMa/hugo-fresh => ../
+replace github.com/PluralFusion/freshaf => ../
 
-require github.com/StefMa/hugo-fresh v1.0.0 // indirect
+require github.com/luralFusion/freshaf v1.2.0 // indirect
