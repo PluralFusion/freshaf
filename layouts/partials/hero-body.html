@@ -4,11 +4,8 @@
 {{- $buttonText := index $hero "buttontext" }}
 {{- $buttonLink := index $hero "buttonlink" }}
 {{- $image      := index $hero "image" }}
-{{- with index $hero "imagealt" -}}
-    {{- $imagealt := index $hero "imagealt" -}}
-  {{- else -}}
-    {{- $imagealt := "Hero Image" -}}
-{{- end -}}
+{{- $imagealt   := index $hero "imagealt" }}
+
 <div class="hero-body">
   <div class="container">
     <div class="columns is-vcentered">
