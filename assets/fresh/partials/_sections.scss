@@ -96,11 +96,12 @@ img.pushed-image {
 
 //Icon box
 .media.icon-box {
-    border-top: none !important;
+    border-top: none;
+    padding: 0;
     .media-content .content p {
-        span {
-            display: block;
-        }
+        // span {
+        //    display: block;
+        //}
         .icon-box-title {
             color: $blue-grey;
             font-size: 1.2rem;
