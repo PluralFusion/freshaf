@@ -1,6 +1,4 @@
 {{ define "main" }}
-{{ partial "navbar.html" . }}
-{{ partial "navbar-clone.html" . }}
 {{- $page404 := .Site.Params.pagNotFound }}
 {{- $title := index $page404 "title" }}
 {{- $subtitle := index $page404 "subtitle" }}
