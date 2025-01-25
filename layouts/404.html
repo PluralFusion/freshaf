@@ -16,12 +16,12 @@
                         {{ $title }}
                     </h1>
                     {{- with $subtitle -}}
-                    <h2 class="subtitle is-5 is-muted">
+                    <h2 class="subtitle is-4 is-muted">
                         {{ . }}
                     </h2>
                     {{- end -}}
                 </div>
-                <div class="column is-5 is-offset-1">
+                <div class="column is-5">
                     <figure class="image">
                         {{ with resources.Get $image }}
                         <img src="{{ . }}" style="width:{{ $imagewidth }}" alt="Myself">
