@@ -1,4 +1,4 @@
-{{- define "main" -}}
+{{ define "main" }}
 {{- $page404 := .Site.Params.pagNotFound }}
 {{- $title := index $page404 "title" }}
 {{- $subtitle := index $page404 "subtitle" }}
@@ -21,8 +21,8 @@
                 </div>
                 <div class="column is-5 is-offset-1">
                     <figure class="image">
-                        {{- $img := resources.Get $image -}}
-                        <img src="{{- $img.Permalink | relURL -}}"
+                        {{ with resources.Get $image -}}
+                        <img src="{{ .RelPermalink }}"
                             style="width:{{- .Site.Params.pagNotFound.imageWidth -}}" alt="Myself">
                     </figure>
                 </div>
