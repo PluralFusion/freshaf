@@ -1,6 +1,7 @@
 {{ define "main" }}
 {{- $page404 := .Site.Params.pagNotFound }}
 {{- $title := index $page404 "title" }}
+{{- $title2 := index $page404 "title2" }}
 {{- $subtitle := index $page404 "subtitle" }}
 {{- $image := index $page404 "image" | default "/images/404.png" }}
 {{- $imagewidth := index $page404 "imagewidth" | default "600px"}}
@@ -14,6 +15,10 @@
                 <div class="column is-5 is-offset-1 landing-caption">
                     <h1 class="title is-2 is-bold is-spaced">
                         {{ $title }}
+                    </h1>
+                    {{ with $title2 -}}
+                    <h1 class="title is-2 is-bold is-spaced">
+                        {{ . }}
                     </h1>
                     {{- with $subtitle -}}
                     <h2 class="subtitle is-4 is-muted">
