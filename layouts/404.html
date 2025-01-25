@@ -2,7 +2,9 @@
 {{- $page404 := .Site.Params.pagNotFound }}
 {{- $title := index $page404 "title" }}
 {{- $subtitle := index $page404 "subtitle" }}
-{{- $image := index $page404 "image" }}
+{{- $image := index $page404 "image" | default "/images/404.png" }}
+{{- $imagewidth := index $page404 "imagewidth" | default "600px"}}
+
 <section class="hero is-fullheight is-default is-bold">
     {{ partial "navbar.html" . }}
     {{ partial "navbar-clone.html" . }}
@@ -21,8 +23,8 @@
                 </div>
                 <div class="column is-5 is-offset-1">
                     <figure class="image">
-                        {{ with resources.Get $image -}}
-                        <img src="{{ .RelPermalink }}" style="width:{{- .Site.Params.pagNotFound.imageWidth -}}" alt="Myself">
+                        {{ with resources.Get $image }}
+                        <img src="{{ . }}" style="width:{{ $imageWidth }}" alt="Myself">
                         {{ end }}
                     </figure>
                 </div>
